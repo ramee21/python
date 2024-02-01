@@ -1,0 +1,296 @@
+{
+ "cells": [
+  {
+   "cell_type": "raw",
+   "id": "f73cff00",
+   "metadata": {},
+   "source": [
+    "1. In the below elements which of them are values or an expression? eg:- values can be\n",
+    "integer or string and expressions will be mathematical operators.\n",
+    "*\n",
+    "'hello'\n",
+    "-87.8\n",
+    "-\n",
+    "/\n",
+    "+\n",
+    "6\n",
+    "answer:\n",
+    "    values :\n",
+    "        hello\n",
+    "        -87.8\n",
+    "        6\n",
+    "        expression : \n",
+    "            *\n",
+    "            -\n",
+    "            /\n",
+    "            +\n",
+    "            "
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "41787e1e",
+   "metadata": {},
+   "source": [
+    "2. What is the difference between string and variable?\n",
+    "answer:\n",
+    "    a string is a data structure that can hold values in it. a variable is something that is only used to store values . Variable is a storage location identifyer object. Unlike strings, a variable can store different data types's value in it. \n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "929aed80",
+   "metadata": {},
+   "source": [
+    "3. Describe three different data types.\n",
+    "answer:\n",
+    "    int : this is the integer data type that can store integer values in it . for example : int a =5;\n",
+    "            char : this is the character data type that can store characters and strings in it . for example : char c = 'arhaan';\n",
+    "                    boolean : this is the data type that can store boolean numbers in it . for example : 22.3;"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "31fde934",
+   "metadata": {},
+   "source": [
+    "4. What is an expression made up of? What do all expressions do?\n",
+    "answer:\n",
+    "    an expression is made up of operands and operators . operands are the values or the variables that stores the values on which the operation i sgoing to be performed. for example : int a =5; int b =10;\n",
+    "        operators are the computatational parts that wroks on the operands. for example : +,-,/,* \n",
+    "            an expression is the combination of operands and operators. \n",
+    "            for example : \n",
+    "                int a + int b \n",
+    "                5+ 10 = 15\n",
+    "                this is an expression which performs the addition operation and gives us the result."
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "bdf32e4d",
+   "metadata": {},
+   "source": [
+    "5. This assignment statements, like spam = 10. What is the difference between an\n",
+    "expression and a statement?\n",
+    "answer:\n",
+    "    the basic dofference between an expression and a statement is that an expression works on a given statement. for example : 2+3 = 5 . this is an expression and we get the end result as 5. othe othe other hand, in case of astatemt , spam =10, it assigns a vlue to the variable spam as 10. "
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "6ab8f35b",
+   "metadata": {},
+   "source": [
+    "6. After running the following code, what does the variable bacon contain?\n",
+    "bacon = 22\n",
+    "bacon + 1\n",
+    "answer: "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "42a3a2f6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "bacon= 22\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "854af86e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "23"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "bacon +1 "
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "316e0fa1",
+   "metadata": {},
+   "source": [
+    "7. What should the values of the following two terms be?\n",
+    "'spam' + 'spamspam'\n",
+    "'spam'*3\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "207c7b49",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'spamspamspam'"
+      ]
+     },
+     "execution_count": 3,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "'spam'+'spamspam'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "5deacd8f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'spamspamspam'"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "'spam'*3"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "64fdbf8d",
+   "metadata": {},
+   "source": [
+    "8. Why is eggs a valid variable name while 100 is invalid?\n",
+    "answer : \n",
+    "    eggs is a valid variable name and not 100 because variable name starts with a letter and not number , it should either start with a letter or an underscore , it can later be followed by any number , but a variable name cannot have numbers in it from the starting. "
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "ea6adcd6",
+   "metadata": {},
+   "source": [
+    "9. What three functions can be used to get the integer, floating-point number, or string\n",
+    "version of a value?\n",
+    "answer :\n",
+    "    for integer :\n",
+    "        value = 67.88\n",
+    "        ineger_value = int (value)\n",
+    "        for floating - point number :\n",
+    "            value = 99\n",
+    "            float_value = float (value)\n",
+    "            for character :\n",
+    "                value = 2345678\n",
+    "                char_value = char(value)\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "81366371",
+   "metadata": {},
+   "source": [
+    "10. Why does this expression cause an error? How can you fix it?\n",
+    "'I have eaten' + 99 + ' burritos'\n",
+    "answer :"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "8b128c50",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "can only concatenate str (not \"int\") to str",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[5], line 1\u001b[0m\n\u001b[1;32m----> 1\u001b[0m \u001b[38;5;124m'\u001b[39m\u001b[38;5;124mI have eaten\u001b[39m\u001b[38;5;124m'\u001b[39m \u001b[38;5;241m+\u001b[39m \u001b[38;5;241m99\u001b[39m \u001b[38;5;241m+\u001b[39m \u001b[38;5;124m'\u001b[39m\u001b[38;5;124m burritos\u001b[39m\u001b[38;5;124m'\u001b[39m\n",
+      "\u001b[1;31mTypeError\u001b[0m: can only concatenate str (not \"int\") to str"
+     ]
+    }
+   ],
+   "source": [
+    "'I have eaten' + 99 + ' burritos'"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "30c5cece",
+   "metadata": {},
+   "source": [
+    "this senetnce causes an error because we can only concatenate string to a string and not an integer to a string.\n",
+    "the correct way of writting this would be :\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "668b1547",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'i have eaten99buritoes'"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "'i have eaten' + str(99) + 'buritoes'"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "06ebd9e7",
+   "metadata": {},
+   "source": [
+    "in this way we add an integer to a string without explicitly converting an integer to a string."
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
